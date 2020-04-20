@@ -149,6 +149,9 @@ img {
         display: flex;
         justify-content: center;
     }
+        .area- {
+        left: 45%;
+    }
     .skill-area {
     display: block;
     
