@@ -125,6 +125,9 @@ img {
     width: 500px;
     height: 500px;
 }
+.pro-h3 {
+    line-height: 48px;
+}
 .link-area {
     margin-top: 30px;
 }
@@ -157,7 +160,10 @@ img {
     .skill-contents1, .skill-contents2 {
         display: block;
         margin-top: 10px;
-        width: 470px;
+        width: 340px;
+    }
+    .intro-contents {
+        padding: 0 20px;
     }
     .p2 {
         display: flex;
@@ -173,13 +179,22 @@ img {
     }
     .project-img {
         text-align: center;
-        width: 470px;
+        width: 320px;
     }
     img {
-        width: 470px;
+        height: 300px;
+        width: 320px;
     }
     .project-text {
         text-align: center;
-        width: 470px;
+        width: 320px;
+    }
+    .pro-h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .link-a {
+        margin-right: 5px;
+        padding: 10px 19px;
     }
 }
