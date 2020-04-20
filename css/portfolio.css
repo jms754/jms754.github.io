@@ -1,0 +1,185 @@
+@charset "UTF-8";
+* {
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+    
+}
+a {
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.section1, .section2, .section3, .section4 {
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+    a#MOVE_TOP_BTN {
+    position: fixed;
+    color: #444;
+    right: 2%;
+    bottom: 50px;
+    display: none;
+    z-index: 999;
+}
+
+/*
+*******************************************************************************
+*******************************************************************************
+********************************헤더 영역**********************************
+*******************************************************************************
+*******************************************************************************
+*/
+
+
+.header-area {
+    margin-top: 80px;
+    color: #fff;
+    text-align: center;
+}
+.area- {
+    position: absolute;
+    bottom: 0px;
+    left: 49%;
+    color: #fff;
+}
+.bar1 {
+    color: #444;
+}
+/*
+*******************************************************************************
+*******************************************************************************
+********************************나의 스킬 영역**********************************
+*******************************************************************************
+*******************************************************************************
+*/
+
+.section2 {
+    background-color: #dbdbdb;
+    color: #444;
+}
+.skill1, .skill2 {
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.skill-contents1, .skill-contents2 {
+    border: 1px solid #444;
+    line-height: 24px;
+    display: inline-block;
+    height: 200px;
+    width: 350px;
+}
+.arrow {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.bar2 {
+    color:  #444;
+}
+
+/*
+*******************************************************************************
+*******************************************************************************
+********************************인트로 영역*************************************
+*******************************************************************************
+*******************************************************************************
+*/
+
+.section3 {
+    background-color: #dbdbdb;
+    color: #444;
+}
+.intro-contents {
+    text-align: center;
+    padding: 0 80px;
+    width: 100%;
+} 
+
+/*
+*******************************************************************************
+*******************************************************************************
+********************************프로젝트 영역***********************************
+*******************************************************************************
+*******************************************************************************
+*/
+
+.project-contents {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-img {
+    width: 600px;
+}
+img {
+    border-radius: 100%;
+    border: 3px solid #dbdbdb;
+}
+.project-text {
+    width: 500px;
+    height: 500px;
+}
+.link-area {
+    margin-top: 30px;
+}
+.link-a {
+    color: #fff;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #444;
+    border: 1px solid black;
+}
+.link-a:hover {
+    color: #444;
+    background-color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+@media screen and (max-width : 767px) {
+    .m3 {
+        display: flex;
+        justify-content: center;
+    }
+    .skill-area {
+    display: block;
+    
+    }
+    .skill1, .skill2{
+        display: block;
+        margin: 0;
+    }
+    .skill-contents1, .skill-contents2 {
+        display: block;
+        margin-top: 10px;
+        width: 470px;
+    }
+    .p2 {
+        display: flex;
+        justify-content: center;
+    }
+    .project-area {
+        display: block;
+    }
+    .project-contents {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    }
+    .project-img {
+        text-align: center;
+        width: 470px;
+    }
+    img {
+        width: 470px;
+    }
+    .project-text {
+        text-align: center;
+        width: 470px;
+    }
+}
